@@ -1,12 +1,52 @@
-# React + Vite
+# Weather App 🌤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+The **Weather App** is a simple and user-friendly web application that provides real-time weather updates for any location. It fetches weather data from an external API and displays key details such as temperature, humidity, wind speed, and weather conditions.
 
-Currently, two official plugins are available:
+## Features
+- 🌍 Search for weather by city name
+- ⛅ Displays current temperature, humidity, wind speed, and weather conditions
+- 🌡️ Dynamic background based on weather conditions
+- 📍 Supports geolocation for fetching the user's current weather
+- 🎨 Responsive and intuitive UI for seamless user experience
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **Frontend:** HTML, CSS, JavaScript
+- **API:** OpenWeatherMap API (or any other weather API being used)
+- **Libraries:** Axios (for API requests), Bootstrap (for styling, if applicable)
 
-## Expanding the ESLint configuration
+## Installation & Usage
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ImVijayKumar/Weather-App.git
+   cd Weather-App
+   ```
+2. **Open the project:**
+   - Simply open `index.html` in a browser.
+3. **Run the project locally (if applicable):**
+   - If using a local server, run:
+     ```bash
+     npx live-server
+     ```
+   - Open `http://localhost:5500` in your browser.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## API Configuration
+To use this project, obtain an API key from [OpenWeatherMap](https://openweathermap.org/api) and add it in the JavaScript file:
+```javascript
+const apiKey = 'YOUR_API_KEY';
+```
+
+## Future Enhancements
+- 🌎 Add support for multiple languages
+- 📊 Include a 7-day weather forecast
+- 🎨 Improve UI with animations and themes
+- 📍 Auto-detect user's location with permission prompt
+
+## Contributing
+Feel free to fork this repository, submit pull requests, or report issues. Contributions are always welcome! 😊
+
+## License
+This project is licensed under the **MIT License**.
+
+---
+🚀 *Stay updated with the latest weather using the Weather App!*
