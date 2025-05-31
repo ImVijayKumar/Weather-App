@@ -1,14 +1,14 @@
-# Weather App 🌤️
+# Weather App
 
 ## Overview
 The **Weather App** is a simple and user-friendly web application that provides real-time weather updates for any location. It fetches weather data from an external API and displays key details such as temperature, humidity, wind speed, and weather conditions.
 
 ## Features
-- 🌍 Search for weather by city name
-- ⛅ Displays current temperature, humidity, wind speed, and weather conditions
-- 🌡️ Dynamic background based on weather conditions
-- 📍 Supports geolocation for fetching the user's current weather
-- 🎨 Responsive and intuitive UI for seamless user experience
+- Search for weather by city name
+- Displays current temperature, humidity, wind speed, and weather conditions
+- Dynamic background based on weather conditions
+- Supports geolocation for fetching the user's current weather
+- Responsive and intuitive UI for seamless user experience
 
 ## Technologies Used
 - **Frontend:** HTML, CSS, JavaScript
@@ -37,16 +37,10 @@ const apiKey = 'YOUR_API_KEY';
 ```
 
 ## Future Enhancements
-- 🌎 Add support for multiple languages
-- 📊 Include a 7-day weather forecast
-- 🎨 Improve UI with animations and themes
-- 📍 Auto-detect user's location with permission prompt
+- Add support for multiple languages
+- Include a 7-day weather forecast
+- Improve UI with animations and themes
+- Auto-detect user's location with permission prompt
 
 ## Contributing
-Feel free to fork this repository, submit pull requests, or report issues. Contributions are always welcome! 😊
-
-## License
-This project is licensed under the **MIT License**.
-
----
-🚀 *Stay updated with the latest weather using the Weather App!*
+Feel free to fork this repository, submit pull requests, or report issues. Contributions are always welcome!
